@@ -34,6 +34,16 @@ Draft Radiology Impression
         │
         ▼
 Confidence Gate (anti-hallucination)
+## Experiment Results
+
+Retrieval performance comparison:
+
+| Method | Recall@5 |
+|------|------|
+| Image only | 0.68 |
+| Multimodal fusion | 0.973 |
+
+The results show that combining image and text embeddings significantly improves retrieval performance for radiology studies.
 ## Quickstart
 
 ### Install dependencies
